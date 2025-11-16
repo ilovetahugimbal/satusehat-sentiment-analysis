@@ -1,4 +1,4 @@
-[![id](https://img.shields.io/badge/lang-id-blue.svg)](https://github.com/ilovetahugimbal/satusehat-sentiment-analysis/blob/main/README.md)
+[![id](https://img.shields.io/badge/lang-id-blue.svg)](https://github.com/mukhtarulll/satusehat-sentiment-analysis/blob/main/README.md)
 
 # SatuSehat App Sentiment Analysis with IndoBERT
 ## Project: Data Mining & NLP
@@ -195,6 +195,6 @@ If using this project, please cite:
   title = {Sentiment Analysis of SatuSehat App Reviews Using IndoBERT},
   year = {2024},
   publisher = {GitHub},
-  url = {https://github.com/ilovetahugimbal/satusehat-sentiment-analysis}
+  url = {https://github.com/mukhtarulll/satusehat-sentiment-analysis}
 }
 ```
