@@ -9,7 +9,7 @@ This project analyzes sentiment from 1,048 user reviews of Indonesia's SatuSehat
 
 ## Quick Summary
 
-![Sentiment Analysis Results](HASIL_ANALISIS.jpg)
+![Sentiment Analysis Results](HASIL_ANALISIS.png)
 
 Analysis results show:
 - **87.3% negative reviews** — Dominated by technical complaints (login/OTP, barcode scan, vaccine certificate)
@@ -40,7 +40,7 @@ Analysis results show:
 - Fields extracted: content (review text), score (star rating)
 
 ### 2. Text Preprocessing
-![Methodology Flowchart](Metode-Miniriset-UAS.drawio.jpg)
+![Methodology Flowchart](Metode@20Miniriset%20UAS.drawio.jpg)
 
 Preprocessing pipeline:
 - **Cleaning**: Remove non-alphabetic characters, emojis, URLs
@@ -64,19 +64,19 @@ Preprocessing pipeline:
 
 ## Key Findings
 
-### 🔴 Top 5 Complaints (Negative Sentiment)
+### Top 5 Complaints (Negative Sentiment)
 1. **"tolong diperbaiki" / "please fix"** (105 occurrences) — Generic bug fix requests
 2. **"sertifikat vaksin" / "vaccine certificate"** (94 occurrences) — Issues downloading/accessing vaccination certificates
 3. **"peduli lindungi"** (65 occurrences) — Data migration problems from PeduliLindungi app
 4. **"scan barcode"** (49 occurrences) — QR/barcode scanning feature not working
 5. **"kode OTP" / "OTP code"** (not explicitly counted, but dominant in reviews) — OTP verification issues during login
 
-### 🟢 Top 3 Praises (Positive Sentiment)
+### Top 3 Praises (Positive Sentiment)
 1. **"terima kasih" / "thank you"** (4 occurrences) — General appreciation
 2. **"sertifikat vaksin" / "vaccine certificate"** (4 occurrences, positive context) — Successfully downloaded certificate
 3. **Blood pressure monitoring feature** — Appreciation for health tracking integration
 
-### 📊 Confidence Score Insights
+### Confidence Score Insights
 - **Negative**: Average confidence 0.96 (model very confident in negative classification)
 - **Positive**: Average confidence 0.87 (lower due to small sample size)
 - **Neutral**: Average confidence 0.78 (highest ambiguity)
@@ -98,24 +98,6 @@ Preprocessing pipeline:
 ### Priority 3 (Long Term)
 7. **Expand health monitoring features** — Leverage positive sentiment on BP monitoring to add more features (glucose, heart rate, etc.)
 8. **Sentiment monitoring dashboard** — Automate review tracking for early detection of new issues
-
----
-
-## File Structure
-
-```
-satusehat-sentiment-analysis/
-├── README.md                                # Main documentation (Bahasa Indonesia)
-├── README.en.md                             # English version
-├── data_ulasan_satusehat.csv                # Raw dataset (1,048 reviews)
-├── HASIL_ANALISIS.csv                       # Processed data with sentiment labels
-├── Miniriset-UAS_Mukhtarul-Hadi_2304140066.ipynb  # Complete Jupyter Notebook
-├── Miniriset-UAS_Mukhtarul-Hadi_230414066.pdf    # Academic report
-├── LAPORAN_RINGKASAN.txt                    # Summary findings
-├── Metode-Miniriset-UAS.drawio.jpg          # Methodology flowchart
-├── HASIL_ANALISIS.jpg                       # Dashboard visualization
-└── requirements.txt                         # Python dependencies
-```
 
 ---
 
@@ -216,9 +198,3 @@ If using this project, please cite:
   url = {https://github.com/yourusername/satusehat-sentiment-analysis}
 }
 ```
-
----
-
-**Last Updated:** November 2025  
-**Status:** Academic Project — Portfolio Ready  
-**Version:** 1.0
