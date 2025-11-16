@@ -40,7 +40,7 @@ Analysis results show:
 - Fields extracted: content (review text), score (star rating)
 
 ### 2. Text Preprocessing
-![Methodology Flowchart](Metode%20Miniriset%20UAS.drawio.jpg)
+![Methodology Flowchart](Metode%20Miniriset%20UAS.drawio.png)
 
 Preprocessing pipeline:
 - **Cleaning**: Remove non-alphabetic characters, emojis, URLs
